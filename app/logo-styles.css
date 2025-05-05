@@ -1,0 +1,17 @@
+/* Style dla logo TruckersMP */
+.logo-container {
+  position: relative;
+  height: 48px;
+  width: 192px; /* Szerokość logo */
+  padding: 0;
+}
+
+/* Zapewnienie odpowiedniej przestrzeni wokół logo 
+   - 15px góra/dół
+   - 150% szerokości prawo/lewo */
+.logo-spacing {
+  padding: 15px calc(192px * 0.5); /* 15px góra/dół, 150% szerokości (96px) prawo/lewo */
+  padding-left: calc(192px * 0.5);
+  padding-right: calc(192px * 0.5);
+  box-sizing: content-box;
+}
